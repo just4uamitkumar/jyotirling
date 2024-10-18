@@ -1,0 +1,14 @@
+@import "fonts";
+@import "reset";
+
+/*-------| Main |--------*/
+main {
+  padding: calc($grid-2x + 4px) 0 0;
+}
+
+
+/*-------| Sidebar |--------*/
+.codeColumn{
+  min-height: 500px;
+  background-color: $secondary;
+}

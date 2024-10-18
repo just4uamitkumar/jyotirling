@@ -1,0 +1,29 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/colors";
+@import "../../../styles/mixins";
+
+header {
+  background-color: $white;
+  padding: $grid-1x ;
+ 
+  nav{
+    ul{
+      li{
+        list-style: none;
+        display: inline;
+        margin:0 $grid-1x;
+        a{
+          padding: $grid-1x;
+          color:$primary-text;
+          font-family: $SodoSansSemiBold;
+          font-size: 1.1rem;
+          text-decoration: none;
+          &:hover{
+            color:$primary-text-hover;
+          }
+        }
+      }
+    }
+  }
+}
+

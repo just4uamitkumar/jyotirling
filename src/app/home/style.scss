@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+@import "../../styles/colors.scss";
+
+.homeBanner{
+    background-image: url('../../styles/assets/images/web/mahadev.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+
+    .pageHeader{
+        .title{
+            font-size: 5rem;
+            color: $white;
+            font-family: $SodoSansSemiBold;
+        }
+    }
+}
+
+
+.infoBar{
+    background-color: $warning;
+    font-family: $SodoSansSemiBold;
+    font-size: 1.2rem;
+    color: $white;
+
+}
+
+
+
