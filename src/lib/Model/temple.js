@@ -22,11 +22,10 @@ const templeSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
-    },
-    {
+    },{
         timestamp: true,
     })
 
-const Temple = mongoose.models.Temple || mongoose.model('Temple', templeSchema)
+const Temple = mongoose.models.temple || mongoose.model('temple', templeSchema)
 
 export default Temple;

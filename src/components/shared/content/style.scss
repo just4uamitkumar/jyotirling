@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+@import "../../../styles/colors.scss";
+
+.info-tile{
+    .imgWrapper{
+        img{
+            @include boxShadow($grid-1x $grid-1x $grid-1x rgba($grey, 1));
+        }
+    }
+
+    h2{
+        
+    }
+    
+}

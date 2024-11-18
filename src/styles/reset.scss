@@ -37,25 +37,24 @@ html {
 h1.MuiTypography-root {
   font-size: 3rem;
   line-height: 1.27;
-  color:$secondary-text;
-  font-family:$SodoSansSemiBold;
+  color: $secondary-text;
+  font-family: $SodoSansSemiBold;
 }
 
 h2.MuiTypography-root {
-  font-size: 1.143rem;
-  line-height: 1.3125;
+  font-size: 1.8rem;
 }
 
 h3.MuiTypography-root {
-  font-size: 1.071rem;
+  font-size: 1.5rem;
   line-height: 1.266;
 }
 
 h4.MuiTypography-root {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.27;
-  color:$secondary-text;
-  font-family:$SodoSansSemiBold;
+  color: $secondary-text;
+  font-family: $SodoSansSemiBold;
 }
 
 h5.MuiTypography-root {
@@ -264,8 +263,8 @@ h5.MuiTypography-root {
   color: $primary-text;
 }
 
-.primary-text-hover{
-  color:$primary-text-hover;
+.primary-text-hover {
+  color: $primary-text-hover;
 }
 
 /*-------| Fonts Classes |--------*/
@@ -287,6 +286,89 @@ h5.MuiTypography-root {
   }
 }
 
+/*-------| Button Classes |--------*/
+.MuiButtonBase-root {
+  &.MuiButton-root {
+    font-size: 1rem;
+    @include roundCorner(0);
+    align-items: center;
+    padding: calc($half-grid + 2px) $grid-2x;
+    font-family: $SodoSansSemiBold;
+    transition: 0.5s;
 
+    &.primary-btn {
+      background-color: $primary;
+      color: $white;
+      .MuiButton-startIcon {
+        .MuiSvgIcon-root {
+          font-size: 1.9rem;
+        }
+      }
 
+      &:hover {
+        background-color: $primary-hover;
+      }
 
+    }
+
+    &.secondary-btn {
+      background-color: transparent;
+      border: 1px solid $white;
+      color: $white;
+
+      &:hover {
+        background-color: $white;
+        color: $primary;
+      }
+    }
+
+     &.success-btn {
+      background-color: $success;
+      color: $success-text;
+
+      &:hover {
+        background-color: $success-hover;
+      }
+    }
+
+    &.cancel-btn {
+      background-color: transparent;
+      border: 1px solid $error;
+      color: $error;
+
+      &:hover {
+        background-color: $error;
+        color: $white;
+      }
+    }
+
+    // &.close-btn {
+    //   @include roundCorner($grid-4x);
+    //   color: $primary-text;
+    //   font-family: $SodoSansSemiBold;
+    //   text-transform: none;
+    //   text-decoration: underline;
+    // }
+
+   
+
+    &.warning-btn {
+      background-color: $warning;
+      color: $warning-text;
+
+      &:hover {
+        background-color: $warning-hover;
+      }
+    }
+
+    &.error-btn {
+      background-color: $error;
+      color: $error-text;
+
+      &:hover {
+        color:$white;
+        background-color: $error-hover;
+      }
+    }
+  }
+}

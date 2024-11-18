@@ -1,0 +1,24 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/colors";
+@import "../../../styles/mixins";
+
+.drawer {
+  &.right {
+    .MuiPaper-root {
+      width: 450px;
+    }
+  }
+
+  .drawer-title {
+    font-family: $SodoSansSemiBold;
+    border-bottom: 1px solid $black700;
+    font-size: 2rem;
+    padding: calc($grid-1x + 2px) $grid-1x $grid-1x $grid-2x;
+  }
+
+  .close {
+    position: absolute;
+    top: $grid-1x;
+    right: $grid-1x;
+  }
+}
