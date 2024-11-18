@@ -1,11 +1,11 @@
 /*----| Red |----*/
 $red: #b71c1c;
-$red100: #9a2a21;
-$red200: #D53F28;
-$red300: #e53935;
-$red400: #f44336;
-$red500: #ef5350;
-$red600: #FABDAB;
+$red100: #df4439;
+$red200: #f8584d;
+$red300: #fc675c;
+$red400: #f76d63;
+$red500: #ff6a67;
+$red600: #f78b6a;
 $red700: #fcd7cd;
 $red800: #ef9a9a;
 $red900: #e57373;
@@ -83,20 +83,32 @@ $primary-text-hover: $blue400;
 
 /*----| Secondary |----*/
 $secondary: $grey300;
-// $secondary-hover: $blue400;
+$secondary-hover: $blue400;
 $secondary-text: $black300;
-// $secondary-text-hover: $white200;
+$secondary-text-hover: $white200;
 
 /*----| Success |----*/
+$success: $green300;
+$success-hover: $blue400;
+$success-text: $white;
+$success-text-hover: $white200;
 
 
 /*----| Warning |----*/
 $warning: $orange;
+$warning-hover: $blue400;
+$warning-text: $white;
+$warning-text-hover: $white200;
 
 
 
 
 /*----| Error |----*/
+$error:$red700;
+$error-text:$red;
+$error-hover:$red;
+$error-text-hover:$red700;
+
 
 
 /*----| Info |----*/

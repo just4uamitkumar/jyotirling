@@ -16,7 +16,7 @@ interface Props extends DialogProps {
   children?: React.ReactNode;
   confirmText?: string;
   cancelText?: string;
-  onConfirm?: any;
+  onConfirm?: ( event: React.KeyboardEvent | React.MouseEvent) => void;
   onCancel?: () => void;
   dialogClass?: string;
   titleClass?: string;
