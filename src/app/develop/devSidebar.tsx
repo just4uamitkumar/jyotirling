@@ -37,6 +37,14 @@ const DevSidebar: React.FC = () => {
         </ListItem>
       </List>
       <Divider />
+      <List>
+        <ListItem disablePadding>
+          <ListItemButton href="/develop/Debouncing">
+            <ListItemText primary="Debouncing" />
+          </ListItemButton>
+        </ListItem>
+        
+      </List>
     </>
   );
 };
