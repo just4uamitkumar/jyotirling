@@ -43,6 +43,11 @@ const DevSidebar: React.FC = () => {
             <ListItemText primary="Debouncing" />
           </ListItemButton>
         </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton href="/develop/Throttling">
+            <ListItemText primary="Throttling" />
+          </ListItemButton>
+        </ListItem>
         
       </List>
     </>

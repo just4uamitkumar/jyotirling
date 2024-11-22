@@ -19,8 +19,6 @@ const Debouncing: React.FC = () => {
     return () => clearTimeout(getData)
   }, [pinCode]);
 
-
-
   return (
     <>
       <Grid size={12}>
